@@ -22,5 +22,3 @@ jobs:
         java-version: 11
     - name: Build with Maven
       run: mvn -B --file pom.xml install
-    - name: ls command
-      run: tar zxf build/sk*.gz; ls build; ls build/sk*/
